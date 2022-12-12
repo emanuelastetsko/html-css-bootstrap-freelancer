@@ -13,23 +13,28 @@
     <body>
 
         <!-- INIZIO HEADER -->
-        <header class="py-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6 text-light">
-                        START BOOTSTRAP
+        <header class="py-3 position-stiky top-0">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <a class="navbar-brand text-light" href="#">START BOOTSTRAP</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#about">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#contact-me">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-md-1 offset-md-3 text-end">
-                        <a href="#">PORTFOLIO</a>
-                    </div>
-                    <div class="col-1 text-end">
-                        <a href="#">ABOUT</a>
-                    </div>
-                    <div class="col-1 text-end">
-                        <a href="#">CONTACT</a>
-                    </div>
-                </div>
-            </div>
+                </nav>
         </header>
         <!-- FINE HEADER -->
 
@@ -69,23 +74,23 @@
                             <i class="fa-solid fa-star mb-3"></i>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-4 mb-3">
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <img src="img/cabin.png" alt="home" class="rounded">
                         </div>
-                        <div class="col-4 mb-3">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <img src="img/cake.png" alt="cake" class="rounded">
                         </div>
-                        <div class="col-4 mb-3">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <img src="img/circus.png" alt="circus" class="rounded">
                         </div>
-                        <div class="col-4 mb-3">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <img src="img/game.png" alt="game" class="rounded">
                         </div>
-                        <div class="col-4 mb-3">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <img src="img/safe.png" alt="safe" class="rounded">
                         </div>
-                        <div class="col-4 mb-3">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <img src="img/submarine.png" alt="submarine" class="rounded">
                         </div>
                     </div>
@@ -101,11 +106,11 @@
                         <div class="col-12 star">
                             <i class="fa-solid fa-star mb-3"></i>
                         </div>
-                        <div class="col-md-5 offset-md-1 text-start">
-                            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy costumization.</p>
+                        <div class="col-12 col-md-6 col-lg-6 text-start">
+                            <p class="px-5">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy costumization.</p>
                         </div>
-                        <div class="col-5 text-start">
-                            <p>Whether you're a student looking to showcase you work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                        <div class="col-12 col-md-6 col-lg-6 text-start">
+                            <p class="px-5">Whether you're a student looking to showcase you work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                         </div>
                         <div class="col-12">
                             <button class="btn btn-outline-secondary text-light border-light">
@@ -126,7 +131,7 @@
                         <div class="col-12 star-dark text-center">
                             <i class="fa-solid fa-star mb-3"></i>
                         </div>
-                        <div class="col-md-10 offset-md-1">
+                        <div class="col-12 px-5">
                             <form>
                                 <div class="mb-3">
                                     <input type="text" placeholder="Name" class="form-control input-style">
@@ -154,15 +159,15 @@
         <footer>
             <section id="footer-top" class="py-5">
                 <div class="container">
-                    <div class="row text-center text-light">
-                        <div class="col-4">
+                    <div class="row text-center text-light g-5">
+                        <div class="col-12 col-md-4 col-lg-4">
                             <h5>LOCATION</h5>
                             <span>2215 John Daniel Drive Clark, MO 
                                 <br>
                                 54243
                             </span>    
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 col-md-4 col-lg-4">
                             <h5>AROUND THE WEB</h5>
                             <span>
                                 <i class="fa-brands fa-facebook-f border rounded-circle p-2"></i>
@@ -171,7 +176,7 @@
                                 <i class="fa-brands fa-linkedin-in border rounded-circle p-2"></i>
                             </span>
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 col-md-4 col-lg-4">
                             <h5>ABOUT FREELANCER</h5>
                             <span>
                                 Freelance is a free to use, open source 
@@ -186,7 +191,7 @@
 
             <section id="footer-bottom" class="py-3">
                 <div class="container">
-                    <div class="row text-center text-light">
+                    <div class="row text-center text-light small-text">
                         <div class="col-12">
                             <span>Copyright &copy; Your Website 2019</span>
                         </div>
