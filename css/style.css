@@ -1,4 +1,12 @@
 /* REGOLE GENERALI */
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
 
 /* HEADER */
 header{
@@ -6,12 +14,29 @@ header{
 }
 
 /* MAIN */
+#jumbotron{
+    background-color: #1abc9c;
+}
+
+#jumbotron img{
+    width: 50%;
+    height: auto;
+}
+
+#portfolio img{
+    width: 100%;
+    height: auto;
+}
+
+#about{
+    background-color: #1abc9c;;
+}
 
 /* FOOTER */
 
 /* PALETTE 
 header: #2c3e50;
-verdeacqua jumbotron: #2c3e50;
+verdeacqua jumbotron: #1abc9c;
 testo grigio: #333333;
 footer chiaro: #3a546d;
 */
