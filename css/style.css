@@ -61,6 +61,17 @@ header{
     background-color: #1abc9c;
 }
 
+.input-style{
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0%;
+}
+
+button.green-color{
+    background-color: #1abc9c;
+    border: 1px solid #1abc9c;
+}
+
 /* FOOTER */
 #footer-top{
     background-color: #3a546d;
